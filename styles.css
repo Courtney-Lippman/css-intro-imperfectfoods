@@ -22,7 +22,12 @@ button {
   -webkit-appearance: none;
   line-height: 1;
   text-decoration: none;
-  transition: 300ms
+  transition: color 300ms, border-color 300ms, background-color 300ms;
+  transition-property: color, border-color, background-color;
+  transition-duration: 300ms, 300ms, 300ms;
+  transition-timing-function: ease, ease, ease;
+  transition-delay: 0s, 0s, 0s;
+  cursor: pointer;
 }
 
 img {
